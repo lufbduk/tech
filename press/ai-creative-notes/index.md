@@ -1,5 +1,5 @@
 ---
-title: 创意笔记 with AI
+title: ai-creative-notes
 description: 收集各种创意内容和想法，包括剧本、故事大纲、创意设计等，所有内容都通过 AI 辅助创作和优化
 date: 2025-02-15
 tags:
@@ -17,13 +17,13 @@ head:
       content: 创意笔记,创意写作,剧本创作,故事大纲,AI协作创作,内容策划,艺术创作
   - - meta
     - property: og:title
-      content: 创意笔记 with AI - lufbduk 技术博客
+      content: ai-creative-notes - lufbduk 技术博客
   - - meta
     - property: og:description
       content: 收集各种创意内容和想法，包括剧本、故事大纲、创意设计等，所有内容都通过 AI 辅助创作和优化
 ---
 
-# 创意笔记 with AI
+# ai-creative-notes
 
 欢迎来到创意笔记板块！这里收集了各种创意内容和想法，包括剧本、故事大纲、创意设计等。所有内容都通过 AI 辅助创作和优化。
 

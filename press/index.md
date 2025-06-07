@@ -44,10 +44,10 @@ hero:
   actions:
     - theme: brand
       text: 技术笔记
-      link: /技术笔记 by AI/
+      link: /ai-tech-notes/
     - theme: alt
       text: 创意笔记
-      link: /创意笔记 with AI/
+      link: /ai-creative-notes/
     - theme: alt
       text: GitHub
       link: https://github.com/lufbduk/tech
@@ -66,14 +66,14 @@ hero:
 
 features:
   - icon: 💻
-    title: 技术笔记 by AI
+    title: ai-tech-notes
     details: Web 前端、TypeScript、Vue 生态系统、Git 版本控制、包管理等技术文章，AI 辅助整理优化
-    link: /技术笔记 by AI/
+    link: /ai-tech-notes/
     linkText: 查看技术笔记
   - icon: 🎨
-    title: 创意笔记 with AI
+    title: ai-creative-notes
     details: 原创剧本、创意设计、内容策划等创意作品，探索人机协作的创意可能性
-    link: /创意笔记 with AI/
+    link: /ai-creative-notes/
     linkText: 查看创意笔记
   - icon: 🤖
     title: AI 辅助创作
