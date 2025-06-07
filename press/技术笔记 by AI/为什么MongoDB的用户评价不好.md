@@ -1,3 +1,31 @@
+---
+title: 为什么MongoDB的用户评价不好
+description: 深入分析 MongoDB 用户评价两极分化的原因，包括早期版本问题、性能争议、商业策略等因素
+date: 2025-01-18
+tags:
+  - MongoDB
+  - NoSQL
+  - 数据库
+  - 后端开发
+  - 技术评估
+keywords: MongoDB,NoSQL数据库,数据库评价,MongoDB问题,数据库选型,后端开发
+author: lufbduk
+category: 技术笔记
+head:
+  - - meta
+    - name: keywords
+      content: MongoDB,NoSQL数据库,数据库评价,MongoDB问题,数据库选型,后端开发,数据一致性
+  - - meta
+    - property: og:title
+      content: 为什么MongoDB的用户评价不好 - 全面技术分析
+  - - meta
+    - property: og:description
+      content: 深入分析 MongoDB 用户评价两极分化的原因，包括早期版本问题、性能争议、商业策略等关键因素
+---
+
+# 为什么MongoDB的用户评价不好
+
+> **摘要**：MongoDB 作为流行的 NoSQL 数据库，用户评价却存在两极分化现象。本文深入分析其受到批评的主要原因，包括早期版本的稳定性问题、内存占用争议、查询限制、商业策略变化等关键因素。
 
 MongoDB 作为一款流行的 NoSQL 数据库，虽然在某些场景下表现优异，但用户评价存在两极分化。以下是其受到批评的主要原因：
 

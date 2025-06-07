@@ -1,3 +1,33 @@
+---
+title: 如果某个高权限的团队成员把本地的 husky 卸载了，并且强制push了代码，远程仓库里的 husky 能防御吗？
+description: 深入分析 husky Git hooks 的工作原理和局限性，探讨如何在远程仓库层面建立代码质量防护机制
+date: 2025-01-28
+tags:
+  - Git
+  - husky
+  - Git hooks
+  - 代码质量
+  - CI/CD
+  - 团队协作
+keywords: husky,Git hooks,代码质量,远程仓库防护,CI/CD,GitHub Actions,分支保护
+author: lufbduk
+category: 技术笔记
+head:
+  - - meta
+    - name: keywords
+      content: husky,Git hooks,代码质量,远程仓库防护,CI/CD,GitHub Actions,分支保护,团队协作
+  - - meta
+    - property: og:title
+      content: husky 远程仓库防护能力分析 - Git hooks 局限性探讨
+  - - meta
+    - property: og:description
+      content: 深入分析 husky Git hooks 的工作原理和局限性，探讨如何在远程仓库层面建立代码质量防护机制
+---
+
+# husky 远程仓库防护能力分析
+
+> **摘要**：husky 作为客户端 Git hooks 工具，无法在远程仓库层面提供防护。本文深入分析 husky 的工作原理、局限性，以及如何通过分支保护规则、CI/CD 流水线等服务端方案建立真正的代码质量防护机制。
+
 不能。Husky 只是一个客户端工具，无法在远程仓库层面提供防护。
 
 ## Husky 的工作原理

@@ -1,3 +1,29 @@
+---
+title: 技术笔记 by AI
+description: 收集关于 Web 前端、后端开发、工具使用和最佳实践的技术文章，所有内容都经过 AI 辅助整理优化
+date: 2025-02-15
+tags:
+  - 技术文章
+  - Web前端
+  - TypeScript
+  - Vue.js
+  - Git
+  - 工具推荐
+keywords: 技术笔记,Web前端开发,TypeScript,Vue.js,Git版本控制,开发工具,最佳实践
+author: lufbduk
+category: 技术分类页
+head:
+  - - meta
+    - name: keywords
+      content: 技术笔记,Web前端开发,TypeScript,Vue.js,Git版本控制,开发工具,最佳实践,AI辅助整理
+  - - meta
+    - property: og:title
+      content: 技术笔记 by AI - lufbduk 技术博客
+  - - meta
+    - property: og:description
+      content: 收集关于 Web 前端、后端开发、工具使用和最佳实践的技术文章，所有内容都经过 AI 辅助整理优化
+---
+
 # 技术笔记 by AI
 
 欢迎来到技术笔记板块！这里收集了关于 Web 前端、后端开发、工具使用和最佳实践等方面的技术文章。所有内容都经过 AI 辅助整理和优化。

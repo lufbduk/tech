@@ -1,4 +1,31 @@
+---
+title: PrimeVue Package.json 配置详解
+description: 深入解析 PrimeVue 核心包的 package.json 配置，包括导出结构、构建配置、依赖关系等关键配置项
+date: 2025-02-10
+tags:
+  - PrimeVue
+  - package.json
+  - Vue.js
+  - 组件库配置
+  - 前端工程化
+keywords: PrimeVue配置,package.json详解,Vue组件库配置,导出结构,构建配置,依赖管理
+author: lufbduk
+category: 技术笔记
+head:
+  - - meta
+    - name: keywords
+      content: PrimeVue配置,package.json详解,Vue组件库配置,导出结构,构建配置,依赖管理
+  - - meta
+    - property: og:title
+      content: PrimeVue Package.json 配置详解 - 组件库配置全解析
+  - - meta
+    - property: og:description
+      content: 深入解析 PrimeVue 核心包的 package.json 配置，包括导出结构、构建配置、依赖关系等关键配置项
+---
+
 # PrimeVue Package.json 配置详解
+
+> **摘要**：本文深入解析 PrimeVue 核心包的 package.json 配置文件，详细介绍现代化 Vue 组件库的配置架构，包括包标识、导出结构、构建配置和依赖关系等关键配置项。
 
 ## 概述
 

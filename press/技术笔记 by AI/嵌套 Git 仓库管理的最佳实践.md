@@ -1,12 +1,34 @@
 ---
 title: "嵌套 Git 仓库管理的最佳实践与 pnpm-workspace Monorepo 结合"
 description: "深入探讨嵌套 Git 仓库（Submodule 与 Subtree）的管理方法，以及如何将其与 pnpm-workspace Monorepo 方案高效结合，包含具体实践、依赖管理、版本控制和 CI/CD 集成策略。"
+date: 2025-01-26
+tags:
+  - Git
+  - Submodule
+  - Subtree
+  - Monorepo
+  - pnpm-workspace
+  - 版本控制
 keywords: "Git, Submodule, Subtree, Monorepo, pnpm-workspace, 版本控制, 依赖管理, CI/CD, 项目管理, 嵌套仓库"
+author: lufbduk
+category: 技术笔记
+head:
+  - - meta
+    - name: keywords
+      content: Git,Submodule,Subtree,Monorepo,pnpm-workspace,版本控制,依赖管理,CI/CD,项目管理,嵌套仓库
+  - - meta
+    - property: og:title
+      content: 嵌套 Git 仓库管理的最佳实践与 pnpm-workspace Monorepo 结合
+  - - meta
+    - property: og:description
+      content: 深入探讨嵌套 Git 仓库（Submodule 与 Subtree）的管理方法，以及如何将其与 pnpm-workspace Monorepo 方案高效结合
 ---
 
 ==================================================
 
 # 嵌套 Git 仓库管理的最佳实践
+
+> **摘要**：本文深入探讨嵌套 Git 仓库的管理策略，包括 Git Submodule 和 Subtree 的选择和使用，以及如何与 pnpm-workspace Monorepo 方案结合，提供完整的依赖管理、版本控制和 CI/CD 集成实践。
 
 嵌套 Git 仓库（即仓库中包含子仓库）是常见的开发场景，以下是管理这种结构的最佳实践：
 

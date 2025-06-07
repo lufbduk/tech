@@ -1,3 +1,32 @@
+---
+title: JavaScript-TypeScript-批处理流程管理包推荐
+description: 推荐适用于浏览器环境的批处理流程管理包，支持流程控制、批次管理和持久化存储功能
+date: 2025-01-30
+tags:
+  - JavaScript
+  - TypeScript
+  - 流程管理
+  - 状态管理
+  - 浏览器API
+  - 前端开发
+keywords: JavaScript流程管理,TypeScript批处理,xstate状态机,流程控制,浏览器持久化,IndexedDB
+author: lufbduk
+category: 技术笔记
+head:
+  - - meta
+    - name: keywords
+      content: JavaScript流程管理,TypeScript批处理,xstate状态机,流程控制,浏览器持久化,IndexedDB,工作流引擎
+  - - meta
+    - property: og:title
+      content: JavaScript/TypeScript 批处理流程管理包推荐 - 浏览器持久化方案
+  - - meta
+    - property: og:description
+      content: 推荐适用于浏览器环境的批处理流程管理包，支持流程控制、批次管理和持久化存储功能
+---
+
+# JavaScript/TypeScript 批处理流程管理包推荐
+
+> **摘要**：针对需要在浏览器环境中实现流程控制（开始、暂停、继续、中止、重启）、批次管理和持久化存储的需求，本文推荐几个最适合的技术方案，包括 xstate 状态机、IndexedDB 持久化等解决方案。
 
 >我需要的是这些功能：流程的开始、暂停、继续、中止、重启等；还可以设置每一批次的任务数量。我要在浏览器里使用，并且这些流程都是持久化的，关闭网页或程序之后重新打开还能恢复。
 

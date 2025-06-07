@@ -1,11 +1,35 @@
+---
+title: TypeScript中type和interface的至关重要的区别
+description: 深入分析 TypeScript 中 type 和 interface 的核心区别，包括扩展方式、合并声明、使用场景等关键差异
+date: 2025-01-20
+tags:
+  - TypeScript
+  - 类型系统
+  - 前端开发
+  - JavaScript
+  - 编程基础
+keywords: TypeScript,type,interface,类型定义,类型系统,TypeScript区别,前端开发
+author: lufbduk
+category: 技术笔记
+head:
+  - - meta
+    - name: keywords
+      content: TypeScript,type,interface,类型定义,类型系统,TypeScript区别,前端开发,JavaScript
+  - - meta
+    - property: og:title
+      content: TypeScript中type和interface的至关重要的区别 - 类型系统深度解析
+  - - meta
+    - property: og:description
+      content: 深入分析 TypeScript 中 type 和 interface 的核心区别，包括扩展方式、合并声明、使用场景等关键差异
+---
+
+# TypeScript 中 type 和 interface 的区别
+
+> **摘要**：TypeScript 中的 `type` 和 `interface` 都可以定义类型，但在扩展方式、合并声明、使用场景等方面存在重要区别。本文将详细对比两者的差异，帮助开发者选择合适的类型定义方式。
 
 ts 的 type 和 interface 有什么至关重要的区别吗
 
-
-
-
-
-# TypeScript 中 type 和 interface 的区别
+## 概述
 
 TypeScript 中的 `type` 和 `interface` 都可以用来定义类型，但它们有一些关键区别：
 

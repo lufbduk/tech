@@ -1,8 +1,36 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-title: lufbduk 的技术博客
-description: 聚焦于Web 前端, LLM, AIGC, AI 原生游戏开发, AI 工具等相关技术
+title: lufbduk 的技术博客 - Web前端、LLM、AIGC、AI原生游戏开发
+description: 专注于Web前端、LLM、AIGC、AI原生游戏开发、AI工具等相关技术分享，人机协作的技术博客平台
+date: 2025-02-15
+keywords: Web前端,LLM,AIGC,AI原生游戏开发,AI工具,技术博客,人机协作,lufbduk
+author: lufbduk
+head:
+  - - meta
+    - name: keywords
+      content: Web前端,LLM,AIGC,AI原生游戏开发,AI工具,技术博客,人机协作,TypeScript,Vue.js,前端开发
+  - - meta
+    - property: og:title
+      content: lufbduk 的技术博客 - 探索前沿技术，分享开发经验
+  - - meta
+    - property: og:description
+      content: 专注于Web前端、LLM、AIGC、AI原生游戏开发、AI工具等相关技术分享，人机协作的技术博客平台
+  - - meta
+    - property: og:type
+      content: website
+  - - meta
+    - property: og:url
+      content: https://lufbduk.github.io/tech/
+  - - meta
+    - name: twitter:card
+      content: summary_large_image
+  - - meta
+    - name: twitter:title
+      content: lufbduk 的技术博客 - 探索前沿技术，分享开发经验
+  - - meta
+    - name: twitter:description
+      content: 专注于Web前端、LLM、AIGC、AI原生游戏开发、AI工具等相关技术分享，人机协作的技术博客平台
 
 # 此文件由AI（GitHub Copilot）优化
 

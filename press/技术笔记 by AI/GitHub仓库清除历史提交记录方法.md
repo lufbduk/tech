@@ -1,3 +1,31 @@
+---
+title: GitHub仓库清除历史提交记录方法
+description: 详细介绍如何在保留当前代码状态的同时删除 GitHub 仓库的所有历史提交记录，包括操作步骤和注意事项
+date: 2025-01-25
+tags:
+  - Git
+  - GitHub
+  - 版本控制
+  - 代码管理
+  - Git操作
+keywords: GitHub清除提交记录,Git删除历史,Git孤立分支,版本控制,GitHub操作
+author: lufbduk
+category: 技术笔记
+head:
+  - - meta
+    - name: keywords
+      content: GitHub清除提交记录,Git删除历史,Git孤立分支,版本控制,GitHub操作,Git强制推送
+  - - meta
+    - property: og:title
+      content: GitHub仓库清除历史提交记录方法 - 保留代码删除历史
+  - - meta
+    - property: og:description
+      content: 详细介绍如何在保留当前代码状态的同时删除 GitHub 仓库的所有历史提交记录，包括操作步骤和注意事项
+---
+
+# GitHub仓库清除历史提交记录方法
+
+> **摘要**：本文介绍如何在保留 GitHub 仓库当前代码状态的同时，删除所有历史提交记录。通过创建孤立分支和强制推送等方法，可以让仓库看起来像全新初始化的状态。文章包含详细的操作步骤和重要注意事项。
 
 如何给github仓库保留目前状态的代码但删除以往所有的commits记录
 

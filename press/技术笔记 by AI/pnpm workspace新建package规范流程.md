@@ -1,3 +1,33 @@
+---
+title: pnpm workspace新建package规范流程
+description: 详细介绍在 pnpm workspace 的 TypeScript monorepo 中新建 package 的规范流程和最佳实践
+date: 2025-01-22
+tags:
+  - pnpm
+  - workspace
+  - monorepo
+  - TypeScript
+  - 包管理
+  - 前端工程化
+keywords: pnpm workspace,monorepo,TypeScript,包管理,前端工程化,pnpm新建package
+author: lufbduk
+category: 技术笔记
+head:
+  - - meta
+    - name: keywords
+      content: pnpm workspace,monorepo,TypeScript,包管理,前端工程化,pnpm新建package,工作区管理
+  - - meta
+    - property: og:title
+      content: pnpm workspace新建package规范流程 - TypeScript monorepo 最佳实践
+  - - meta
+    - property: og:description
+      content: 详细介绍在 pnpm workspace 的 TypeScript monorepo 中新建 package 的规范流程和最佳实践
+---
+
+# pnpm workspace 新建 package 规范流程
+
+> **摘要**：本文详细介绍在 pnpm workspace 的 TypeScript monorepo 环境中新建 package 的标准流程，包括目录结构创建、配置文件设置、依赖管理等最佳实践，帮助开发者规范化 monorepo 管理。
+
 在 pnpm workspace 的 TypeScript monorepo 中，新建一个 package 的规范做法通常遵循以下流程（结合手动创建和工具命令）：
 
 ### 标准操作步骤（推荐）

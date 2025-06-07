@@ -1,8 +1,30 @@
 ---
 title: "npm 包依赖管理最佳实践：dependencies 与 peerDependencies 深度解析"
 description: "深入探讨 npm 中 dependencies 和 peerDependencies 的区别、安装行为、打包影响以及最佳实践，帮助开发者避免依赖冲突和冗余安装。"
+date: 2025-01-24
+tags:
+  - npm
+  - 包管理
+  - dependencies
+  - peerDependencies
+  - Node.js
+  - 前端工程化
 keywords: "npm, dependencies, peerDependencies, package.json, node_modules, 打包, webpack, externals, 依赖管理, 前端开发, JavaScript, Node.js, 最佳实践, 版本冲突, 共享依赖"
+author: lufbduk
+category: 技术笔记
+head:
+  - - meta
+    - name: keywords
+      content: npm,dependencies,peerDependencies,package.json,node_modules,打包,webpack,externals,依赖管理,前端开发
+  - - meta
+    - property: og:title
+      content: npm 包依赖管理最佳实践：dependencies 与 peerDependencies 深度解析
+  - - meta
+    - property: og:description
+      content: 深入探讨 npm 中 dependencies 和 peerDependencies 的区别、安装行为、打包影响以及最佳实践，帮助开发者避免依赖冲突和冗余安装
 ---
+
+> **摘要**：本文深入分析 npm 中 dependencies 和 peerDependencies 的核心区别，包括安装行为、打包影响、版本冲突处理等关键方面，提供实用的依赖管理最佳实践，帮助开发者避免常见的依赖问题。
 
 ==================================================
 

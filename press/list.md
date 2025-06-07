@@ -1,3 +1,27 @@
+---
+title: 内容导航 - lufbduk 的技术博客
+description: lufbduk 技术博客的完整内容导航，包括技术笔记和创意笔记两大板块的详细分类和快速链接
+date: 2025-02-15
+tags:
+  - 内容导航
+  - 技术博客
+  - 博客目录
+  - 网站地图
+keywords: 技术博客导航,内容分类,技术笔记,创意笔记,lufbduk博客,Web前端,AI创作
+author: lufbduk
+category: 导航页面
+head:
+  - - meta
+    - name: keywords
+      content: 技术博客导航,内容分类,技术笔记,创意笔记,lufbduk博客,Web前端,AI创作,博客目录
+  - - meta
+    - property: og:title
+      content: 内容导航 - lufbduk 的技术博客
+  - - meta
+    - property: og:description
+      content: lufbduk 技术博客的完整内容导航，包括技术笔记和创意笔记两大板块的详细分类和快速链接
+---
+
 # 内容导航
 
 欢迎来到 lufbduk 的技术博客！这里汇集了技术和创意两大板块的内容。

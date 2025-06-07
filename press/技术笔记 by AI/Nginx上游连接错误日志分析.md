@@ -1,7 +1,33 @@
-# Nginx上游连接错误日志分析（内存不足）
+---
+title: Nginx上游连接错误日志分析
+description: 详细分析 Nginx 上游连接错误日志，包括连接过早关闭、连接重置等常见问题的原因和解决方案
+date: 2025-02-01
+tags:
+  - Nginx
+  - 上游服务
+  - 故障排查
+  - 服务器运维
+  - 错误日志
+keywords: Nginx错误日志,上游连接错误,upstream prematurely closed,连接重置,服务器故障排查
+author: lufbduk
+category: 技术笔记
+head:
+  - - meta
+    - name: keywords
+      content: Nginx错误日志,上游连接错误,upstream prematurely closed,连接重置,服务器故障排查,运维
+  - - meta
+    - property: og:title
+      content: Nginx上游连接错误日志分析 - 故障排查与解决方案
+  - - meta
+    - property: og:description
+      content: 详细分析 Nginx 上游连接错误日志，包括连接过早关闭、连接重置等常见问题的原因和解决方案
+---
 
+# Nginx上游连接错误日志分析
 
+> **摘要**：本文分析一组典型的 Nginx 上游连接错误日志，包括"upstream prematurely closed connection"和"Connection reset by peer"等错误，深入探讨这些错误的原因、影响以及相应的解决方案。
 
+## 错误日志示例
 2025/05/11 23:52:08 [error] 3599761#3599761: *3 upstream prematurely closed connection while reading response header from upstream, client: 【已脱敏ip地址】, server: 【已脱敏域名】, request: "POST /api/v1/embeddings HTTP/1.1", upstream: "http://127.0.0.1:8000/api/v1/embeddings", host: "【已脱敏ip地址】", referrer: "http://【已脱敏ip地址】/api/v1/docs"
 2025/05/11 23:52:08 [warn] 3599761#3599761: *3 upstream server temporarily disabled while reading response header from upstream, client: 【已脱敏ip地址】, server: 【已脱敏域名】, request: "POST /api/v1/embeddings HTTP/1.1", upstream: "http://127.0.0.1:8000/api/v1/embeddings", host: "【已脱敏ip地址】", referrer: "http://【已脱敏ip地址】/api/v1/docs"
 2025/05/11 23:57:48 [error] 3599760#3599760: *9 upstream prematurely closed connection while reading response header from upstream, client: 【已脱敏ip地址】, server: 【已脱敏域名】, request: "GET /api/v1/text-embedding/%E4%BD%A0%E5%A5%BD HTTP/1.1", upstream: "http://127.0.0.1:8000/api/v1/text-embedding/%E4%BD%A0%E5%A5%BD", host: "【已脱敏ip地址】", referrer: "http://【已脱敏ip地址】/api/v1/docs"

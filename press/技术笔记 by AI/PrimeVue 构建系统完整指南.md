@@ -1,4 +1,31 @@
+---
+title: PrimeVue 构建系统完整指南
+description: 深入解析 PrimeVue 构建系统的完整流程，包括构建前准备、主构建过程、构建后处理和 API 文档生成
+date: 2025-02-08
+tags:
+  - PrimeVue
+  - 构建系统
+  - Vue.js
+  - 前端工程化
+  - API文档
+keywords: PrimeVue构建指南,Vue构建系统,API文档生成,构建流程,前端工程化,组件库构建
+author: lufbduk
+category: 技术笔记
+head:
+  - - meta
+    - name: keywords
+      content: PrimeVue构建指南,Vue构建系统,API文档生成,构建流程,前端工程化,组件库构建
+  - - meta
+    - property: og:title
+      content: PrimeVue 构建系统完整指南 - 深度解析构建流程
+  - - meta
+    - property: og:description
+      content: 深入解析 PrimeVue 构建系统的完整流程，包括构建前准备、主构建过程、构建后处理和 API 文档生成
+---
+
 # PrimeVue 构建系统完整指南
+
+> **摘要**：本文深入解析 PrimeVue 的完整构建系统，详细介绍构建前准备、主构建过程、构建后处理和 API 文档生成等各个环节，帮助开发者理解大型 Vue 组件库的构建流程。
 
 ## 概述
 

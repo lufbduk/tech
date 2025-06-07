@@ -1,4 +1,31 @@
+---
+title: PrimeVue 构建系统说明文档
+description: 详细介绍 PrimeVue monorepo 架构的构建系统，包括构建辅助工具和 package.json 信息同步机制
+date: 2025-02-05
+tags:
+  - PrimeVue
+  - monorepo
+  - 构建系统
+  - Vue.js
+  - 前端工程化
+keywords: PrimeVue构建系统,monorepo架构,构建辅助工具,package.json同步,Vue组件库
+author: lufbduk
+category: 技术笔记
+head:
+  - - meta
+    - name: keywords
+      content: PrimeVue构建系统,monorepo架构,构建辅助工具,package.json同步,Vue组件库,前端工程化
+  - - meta
+    - property: og:title
+      content: PrimeVue 构建系统说明文档 - monorepo 架构详解
+  - - meta
+    - property: og:description
+      content: 详细介绍 PrimeVue monorepo 架构的构建系统，包括构建辅助工具和 package.json 信息同步机制
+---
+
 # PrimeVue 构建系统说明文档
+
+> **摘要**：本文详细介绍 PrimeVue 的 monorepo 架构构建系统，包括如何通过构建辅助工具实现各个子包 package.json 信息的一致性管理，以及构建流程的标准化处理。
 
 ## 概述
 
