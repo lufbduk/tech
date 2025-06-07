@@ -69,7 +69,7 @@ head:
 ## 联系方式
 
 - **GitHub**: [lufbduk/tech](https://github.com/lufbduk/tech)
-- **博客主页**: [技术笔记](/技术笔记%20by%20AI/) | [创意笔记](/创意笔记%20with%20AI/)
+- **博客主页**: [技术笔记](/ai-tech-notes/) | [创意笔记](/ai-creative-notes/)
 
 ---
 

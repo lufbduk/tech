@@ -72,6 +72,6 @@ Husky 的设计理念是提供便利的本地开发体验，而不是安全防�
 
 Husky 更多是作为"第一道防线"，帮助开发者在本地就发现问题，而不是最后的安全屏障。
 
-Wiki pages you might want to explore:
+<!-- Wiki pages you might want to explore:
 - [Troubleshooting (typicode/husky)](/wiki/typicode/husky#3.4)
-- [Documentation System (typicode/husky)](/wiki/typicode/husky#4.3)
+- [Documentation System (typicode/husky)](/wiki/typicode/husky#4.3) -->
