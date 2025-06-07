@@ -56,15 +56,32 @@
  * -------------------------------------------------------------------------- */
 
 :root {
+  --c-yellow-1: #ffd859;
+  --c-yellow-2: #f7d336;
+  --c-yellow-3: #dec96e;
+  --c-yellow-soft: #ecb732;
+  --c-yellow-soft-1: #ecb732;
+  --c-yellow-soft-2: #c99513;
+
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: var(--vp-c-purple-1);
+  /* --vp-c-brand-1: var(--vp-c-purple-1);
   --vp-c-brand-2: var(--vp-c-purple-2);
   --vp-c-brand-3: var(--vp-c-purple-3);
-  --vp-c-brand-soft: var(--vp-c-purple-soft);
+  --vp-c-brand-soft: var(--vp-c-purple-soft); */
+
+  /* --vp-c-brand-1: var(--vp-c-yellow-1);
+  --vp-c-brand-2: var(--vp-c-yellow-2);
+  --vp-c-brand-3: var(--vp-c-yellow-3);
+  --vp-c-brand-soft: var(--vp-c-yellow-soft); */
+
+  --vp-c-brand-1: var(--vp-c-yellow-1);
+  --vp-c-brand-2: var(--vp-c-yellow-2);
+  --vp-c-brand-3: var(--vp-c-yellow-3);
+  --vp-c-brand-soft: var(--vp-c-yellow-soft);
 
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
@@ -106,18 +123,18 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #faabde 30%,
-    #5feaff 40%,
-    #fb9d6b 60%
+    #ffbb00 30%,
+    #ffea00 40%,
+    #ffbb00 60%
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
     20deg,
-    #faabde 30%,
-    #5feaff 40%,
-    #fb9d6b 60%
+    #ffea0020 30%,
+    #ffbb0020 40%,
+    #ffff2020 60%
   );
-  --vp-home-hero-image-filter: blur(44px);
+  --vp-home-hero-image-filter: blur(64px);
 }
 
 @media (min-width: 640px) {
