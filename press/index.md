@@ -15,11 +15,11 @@ hero:
     alt: tech Logo
   actions:
     - theme: brand
-      text: 立即查看
-      link: /list
+      text: 技术笔记
+      link: /技术笔记 by AI/
     - theme: alt
-      text: 查看所有项目
-      link: /list
+      text: 创意笔记
+      link: /创意笔记 with AI/
     - theme: alt
       text: GitHub
       link: https://github.com/lufbduk/tech
@@ -35,6 +35,23 @@ hero:
 #     details: 在 Markdown 中以代码插件的形式实现的插件系统，参考 Mermaid 的实现原理，是 MDX 的替代方案
 #     link: /MDCP/
 #     linkText: 了解更多
+
+features:
+  - icon: 💻
+    title: 技术笔记 by AI
+    details: Web 前端、TypeScript、Vue 生态系统、Git 版本控制、包管理等技术文章，AI 辅助整理优化
+    link: /技术笔记 by AI/
+    linkText: 查看技术笔记
+  - icon: 🎨
+    title: 创意笔记 with AI
+    details: 原创剧本、创意设计、内容策划等创意作品，探索人机协作的创意可能性
+    link: /创意笔记 with AI/
+    linkText: 查看创意笔记
+  - icon: 🤖
+    title: AI 辅助创作
+    details: 所有内容都通过 AI 工具辅助创作和优化，展示 AI 在技术写作和创意领域的应用
+    link: /about
+    linkText: 了解更多
 ---
 
 ## 关于该技术博客
